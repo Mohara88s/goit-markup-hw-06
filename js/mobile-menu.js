@@ -1,11 +1,11 @@
 (() => {
     const refs = {
         // Додати атрибут mobile-menu-open на кнопку відкриття
-        openMobileMenuBtn: document.querySelector("[mobile-menu-open]"),
+        openMobileMenuBtn: document.querySelector("[data-mobile-menu-open]"),
         // Додати атрибут mobile-menu-close на кнопку закриття
-        closeMobileMenuBtn: document.querySelector("[mobile-menu-close]"),
+        closeMobileMenuBtn: document.querySelector("[data-mobile-menu-close]"),
         // Додати атрибут mobile-menu на меню
-        mobileMenu: document.querySelector("[mobile-menu]"),
+        mobileMenu: document.querySelector("[data-mobile-menu]"),
     };
 
     refs.openMobileMenuBtn.addEventListener("click", toggleMobileMenu);
